@@ -4,7 +4,7 @@ let duration = 5 * 1000;
 let animationEnd = Date.now() + duration;
 let defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
-export const runFireworks = () => {
+const runFireworks = () => {
 	function randomInRange(min, max) {
 		return Math.random() * (max - min) + min;
 	}
@@ -32,3 +32,4 @@ export const runFireworks = () => {
 		);
 	}, 250);
 };
+export default runFireworks;

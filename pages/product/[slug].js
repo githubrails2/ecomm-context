@@ -4,7 +4,7 @@ import {
 	AiOutlinePlus,
 	AiOutlineStar,
 } from "react-icons/ai";
-import { client, urlFor } from "../lib/client";
+import client,{ urlFor } from "../lib/client";
 
 import { Product } from "../components";
 import { useState } from "react";
