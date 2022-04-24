@@ -9,7 +9,7 @@ const HeroBanner = ({ heroBanner }) => {
 				<h3>{heroBanner.midText}</h3>
 				<h1>{heroBanner.largeText}</h1>
 				<img
-					src={heroBanner.image && urlFor(heroBanner?.image)}
+					src={heroBanner?.image && urlFor(heroBanner?.image)}
 					alt="Headphones"
 					className="hero-banner-image"
 				/>
